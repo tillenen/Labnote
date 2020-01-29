@@ -33,15 +33,16 @@ Borys Olifirov, 2020
 | Lipofectamine   | 1 ml (blue), 200 ul (yellow)    |                                              |
 | Plasmid DNA     | DNA aliquot for transfection    | check DNA concentration before transfection! |
 
-1.3. Take 2 ml aliquot with MEM+ and MEM- from a fridge and clean the tube with 70% ethanol from sprayer. Put it into thermostat for ~ 1 h
+1.3. Take 2 ml aliquot with MEM+ and MEM- from a fridge and clean the tubes with 70% ethanol from sprayer. Put it into thermostat for ~ 1 h
 
 *Note: culture mediums should be at 37oC*
 
-1.4. Put equipment on the BSC
+1.4. Put equipment into the BSC
     
 1.5. Start BSC sterilization by 15-20 min UV
 
 **Warning: DO NOT stare at UV light even trough the glass**
+
 **Warning: DO NOT expose DNA and Lipofectamine to UV light**
 
 ### 2. Transfection

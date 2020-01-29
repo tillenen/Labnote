@@ -28,7 +28,7 @@ warm the solution to room temperature
 | Lighter    |                              | for ethanol burning                         |
 
 
-1.4. Put tools and equipment on BSC
+1.4. Put tools and equipment into the BSC
     
 1.5. Start BSC sterilization by 15-20 min UV
 
