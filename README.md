@@ -29,7 +29,7 @@ Data storing in CSV table format and have next columns:
  - Chemical - name of chemical
  - ID - manufacturer and serial number
  - MW (g/mol) - molecular weight
- - Stock Solution - concentration of srock solution (if you don`t use SS just mark as "solid")
+ - Stock Solution - concentration of srock solution (if you don't use SS just mark as "solid")
  - Concentration - final concentration
  - volume - mass or volume of stock solution for the specified solution volume (there may be several "volume" columns for different solution volumes)
 
@@ -37,12 +37,16 @@ Data storing in CSV table format and have next columns:
 
 #### GitHub cheatsheet
 
-Main **git** commands that you may needed for work are present below, enjoy.
+Main **git** commands that you may needed for work are present below, enjoy. But first you should create fork of Labnote repo on your GitHub account.
 
 
 - Clone `master` from GitHub repo: `git clone https://github.com/wisstock/Labnote.git`
 - Clone repo for personal use `git clone Labnote Labnote_researcher_name`
 - Create personal branch and switch to it: `git branch researcher_name`
+- Create new `git remote` for you cloned repo:
+```
+git remote add personal_remote https://github.com/user_name/Labnote.git
+```
 
 &nbsp;
 
@@ -51,7 +55,7 @@ Main **git** commands that you may needed for work are present below, enjoy.
 ```
 git add --all
 git commit -m "commit message"
-git push origin master
+git push personal_remote master
 ```
 
 &nbsp;
@@ -60,11 +64,12 @@ git push origin master
 ```
 git checkout researcher_name
 ```
+
 - For saving changes in projects records follow next steps:
 ```
 git add --all
 git commit -m "commit message"
-git puch origin researcher_name
+git puch personal_remote researcher_name
 ```
 - Sync you personal repo **Labnote_researcher_name** with update of Reagents and Protocols from `master` branch:
 ```
