@@ -55,7 +55,7 @@ git remote add personal_remote https://github.com/user_name/Labnote.git
 ```
 git add --all
 git commit -m "commit message"
-git push personal_remote master
+git push origin master
 ```
 
 &nbsp;
@@ -63,6 +63,9 @@ git push personal_remote master
 - For editing projects records go to **Labnote_researcher_name** and switch to `researcher_name` branch:
 ```
 git checkout researcher_name
+git remote set-url origin https://github.com/user_name/Labnote.git
+git push -u origin researcher_name
+
 ```
 
 - For saving changes in projects records follow next steps:
