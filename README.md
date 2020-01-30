@@ -31,7 +31,7 @@ Data storing in CSV table format and have next columns:
  - MW (g/mol) - molecular weight
  - Stock Solution - concentration of srock solution (if you don't use SS just mark as "solid")
  - Concentration - final concentration
- - volume - mass or volume of stock solution for the specified solution volume (there may be several "volume" columns for different solution volumes)
+ - volume - mass or volume of stock solution for the specified solution volume (there may be several "volume" columns for different final solution volumes)
 
 ---
 
@@ -58,15 +58,23 @@ git commit -m "commit message"
 git push origin master
 ```
 
+- For sync your **Labnote** repo with upstream `master`:
+```
+git remote add upstream https://github.com/wisstock/Labnote.git
+git fetch upstream
+```
+
 &nbsp;
 
 - For editing projects records go to **Labnote_researcher_name** and switch to `researcher_name` branch:
 ```
 git checkout researcher_name
 git remote set-url origin https://github.com/user_name/Labnote.git
-git push -u origin researcher_name
 
 ```
+
+- For pushing projects records to GitHub repo branch:
+`git push -u origin researcher_name`
 
 - For saving changes in projects records follow next steps:
 ```
